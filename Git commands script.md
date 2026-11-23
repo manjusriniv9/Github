@@ -24,16 +24,26 @@ git fetch
 
 #git commnands to know
 
-git status #what's changed in repo
+git status #what's changed in repo \n
+
 git init #start a repo
+
 git clone # copy from github
+
 git add #stage for commit
+
 git commit -m "message" # save a snapshot
+
 git log --oneline #history
+
 git diff #unstaged
+
 git diff --staged # staged changes
+
 git restore  <file> # discard edits
+
 git restore --staged <file> #unstage
+
 git push/pull @ upload /Download
 
 #Branch and checkouts
