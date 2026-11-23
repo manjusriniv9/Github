@@ -24,7 +24,7 @@ git fetch
 
 #git commnands to know
 
-git status #what's changed in repo \n
+git status #what's changed in repo 
 
 git init #start a repo
 
@@ -49,8 +49,11 @@ git push/pull @ upload /Download
 #Branch and checkouts
 
 git branch branchname #create a new branch
+
 git status #highlight current branch 
+
 git checkout branchname # switch to another branch
+
 git switch -c feature/clean-bool # create and switch new branch 
 
 git branch -d branchname # delete the branch 
@@ -58,4 +61,5 @@ git branch -d branchname # delete the branch
 git push --set-upstream origin branchname #push file to branch
 
 #switch the branch
+
 git swith main
