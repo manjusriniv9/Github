@@ -35,3 +35,17 @@ git diff --staged # staged changes
 git restore  <file> # discard edits
 git restore --staged <file> #unstage
 git push/pull @ upload /Download
+
+#Branch and checkouts
+
+git branch branchname #create a new branch
+git status #highlight current branch 
+git checkout branchname # switch to another branch
+git switch -c feature/clean-bool # create and switch new branch 
+
+git branch -d branchname # delete the branch 
+
+git push --set-upstream origin branchname #push file to branch
+
+#switch the branch
+git swith main
